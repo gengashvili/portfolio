@@ -5,18 +5,18 @@ import { BsFillBrightnessHighFill, BsFillMoonFill } from "react-icons/bs";
 export default function ThemeSwitcher({ darkMode, setDarkMode }) {
   return (
     <StyledSwitcher onClick={() => setDarkMode(!darkMode)} darkMode={darkMode}>
-      {darkMode ? <SunIcon /> : <MoonIcon />}
+      {darkMode ? <MoonIcon /> : <SunIcon />}
     </StyledSwitcher>
   );
 }
 
 const StyledSwitcher = styled.div`
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
   width: 72px;
   height: 28px;
-  background-color: ${({ darkMode }) => (darkMode ? "#FBEDB6" : "#043449")};
+  background-color: ${({ darkMode }) => (darkMode ? "#043449" : "#FBEDB6")};
   border-radius: 20px;
   :hover {
     cursor: pointer;
@@ -34,13 +34,13 @@ const iconStyles = css`
 `;
 
 const SunIcon = styled(BsFillBrightnessHighFill)`
- ${iconStyles}
+  ${iconStyles}
   left: 2px;
   background-color: #f4ca25;
 `;
 
 const MoonIcon = styled(BsFillMoonFill)`
- ${iconStyles}
+  ${iconStyles}
   right: 2px;
   background-color: #25b6f4;
 `;

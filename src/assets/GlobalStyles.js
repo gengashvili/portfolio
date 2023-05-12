@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style-type: non;
+    list-style-type: none;
     text-decoration: none;
   }
   html{
@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background-color: ${({darkMode})=>darkMode?'#0C151D':'#E9EBEC'};
   }
-  p{
+  p,svg{
     color: ${({darkMode})=>darkMode?'#A3ABB2':'#575757'};
     font-size: 1.6rem;
   }
