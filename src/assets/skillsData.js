@@ -1,0 +1,21 @@
+const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Bootstrap",
+  "SASS",
+  "Tailwind CSS",
+  "React.js",
+  "TypeScript",
+  "styled-components",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDb",
+  "Mongoose",
+  "SQL",
+  "MySQL",
+  "Git",
+  "GitHub",
+];
+export default skillsData;

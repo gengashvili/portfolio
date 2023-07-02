@@ -1,0 +1,88 @@
+const projectsData = [
+  {
+    id: 11,
+    title: "poker legends malta",
+    live: "https://poker-legends-malta.netlify.app/",
+    github: "https://github.com/gengashvili/poker-legends-malta",
+    createdBy: "React, React Router, styled-components",
+  },
+  {
+    id: 10,
+    title: "Crypto prices app",
+    live: "https://gengashvili-crypto-prices-app.netlify.app/",
+    github: "https://github.com/gengashvili/crypto-prices-app",
+    createdBy: "React, TypeScript, styled-components",
+  },
+  {
+    id: 9,
+    title: "Entertainment app",
+    live: "https://gengashvili-entertainment-web-app.netlify.app/",
+    github: "https://github.com/gengashvili/entertainment-web-app",
+    createdBy: "React, React Router, styled-components",
+  },
+  {
+    id: 8,
+    title: "Planets fact site",
+    live: "https://gengashvili.github.io/Planets-Fact-Site/",
+    github: "https://github.com/gengashvili/Planets-Fact-Site",
+    createdBy: "React, React Router, styled-components",
+  },
+  {
+    id: 7,
+    title: "Github user search app",
+    live: "https://gengashvili.github.io/github-user-search-app/",
+    github: "https://github.com/gengashvili/github-user-search-app",
+    createdBy: "React, styled-components",
+  },
+  {
+    id: 6,
+    title: "Todo app",
+    live: "https://gengashvili.github.io/Todo-App/",
+    github: "https://github.com/gengashvili/Todo-App",
+    createdBy: "React, styled-components",
+  },
+  {
+    id: 5,
+    title: "Tip Calculator",
+    live: "https://gengashvili.github.io/Tip-Calculator-App/",
+    github: "https://github.com/gengashvili/Tip-Calculator-App",
+    createdBy: "React, styled-components",
+  },
+  {
+    id: 4,
+    title: "Interactive rating component",
+    live: "https://gengashvili.github.io/interactive-rating-component/",
+    github: "https://github.com/gengashvili/interactive-rating-component",
+    createdBy: "React, CSS",
+  },
+  {
+    id: 3,
+    title: "Travel web site",
+    live: "https://gengashvili.github.io/Travel-Web-Site/",
+    github: "https://github.com/gengashvili/Travel-Web-Site",
+    createdBy: "HTML, SCSS/SASS",
+  },
+  {
+    id: 2,
+    title: "Virtual reality web site",
+    live: "https://gengashvili.github.io/virtual-reality-web-site/",
+    github: "https://github.com/gengashvili/virtual-reality-web-site",
+    createdBy: "HTML, CSS",
+  },
+  {
+    id: 1,
+    title: "House repair services",
+    live: "https://gengashvili.github.io/house-repair-services/",
+    github: "https://github.com/gengashvili/house-repair-services",
+    createdBy: "HTML, CSS",
+  },
+  {
+    id: 0,
+    title: "IT-company",
+    live: "https://gengashvili.github.io/IT-company/",
+    github: "https://github.com/gengashvili/IT-company",
+    createdBy: "HTML, CSS",
+  },
+];
+
+export default projectsData;
