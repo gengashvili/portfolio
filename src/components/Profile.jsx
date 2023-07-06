@@ -4,7 +4,9 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Profile({ darkMode }) {
   return (
     <StyledProfile darkMode={darkMode}>
-      <div className="avatar"></div>
+      <div className="avatar">
+        <img src="/images/profile-picture.jpg" alt='profile picture'/>
+      </div>
       <div className="about-me">
         <h1>Giorgi Gengashvili</h1>
         <p>Full Stack Web Developer</p>
@@ -47,6 +49,10 @@ const StyledProfile = styled.section`
     background-color: #ffe071;
     border-radius: 100%;
     margin: 0 auto;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
   }
   .about-me {
     h1 {
