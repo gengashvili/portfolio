@@ -21,7 +21,7 @@ export default function Profile({ darkMode }) {
         </div>
       </div>
       <div className="buttons-wrapper">
-        <button className="download-btn">Download CV</button>
+        <a href="../assets/giorgi_gengashvili.pdf" download><button className="download-btn">Download CV</button></a>
         <button
           className="contact-btn"
           onClick={() => window.scrollTo(0, document.body.scrollHeight)}
