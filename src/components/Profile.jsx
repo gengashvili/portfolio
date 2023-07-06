@@ -21,7 +21,7 @@ export default function Profile({ darkMode }) {
         </div>
       </div>
       <div className="buttons-wrapper">
-        <a href="../assets/giorgi_gengashvili.pdf" download><button className="download-btn">Download CV</button></a>
+        <a href="../assets/giorgi_gengashvili.pdf" download style={{width:"50%"}}><button className="download-btn">Download CV</button></a>
         <button
           className="contact-btn"
           onClick={() => window.scrollTo(0, document.body.scrollHeight)}
@@ -74,6 +74,7 @@ const StyledProfile = styled.section`
     .download-btn {
       background-color: #ffe071;
       color: #3d3d3d;
+      width: 100%;
     }
     .contact-btn {
       background-color: ${({ darkMode }) => (darkMode ? "#171F26" : "#FFFFFF")};
