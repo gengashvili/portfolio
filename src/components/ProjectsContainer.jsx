@@ -22,13 +22,13 @@ const ProjectCard = ({ darkMode, cover, title, techStack, github, live }) => {
 export default function ProjectsContainer({ darkMode }) {
   return (
     <Wrapper>
-      <h2 className="grid-heading">Projects:</h2>
+      <h2 className="grid-heading">Recent Projects:</h2>
       {projectsData.map((project) => {
         return (
           <ProjectCard
             key={project.title}
             darkMode={darkMode}
-            cover="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/JavaScript_code.png/450px-JavaScript_code.png"
+            cover={project.cover}
             title={project.title}
             techStack={project.createdBy}
             github={project.github}

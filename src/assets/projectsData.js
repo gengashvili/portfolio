@@ -1,9 +1,18 @@
 const projectsData = [
   {
+    id: 12,
+    title: "blog app",
+    live: "",
+    github: "",
+    cover: "/images/blog-app.png",
+    createdBy: "React, React Router, tailwind CSS, node.js, express.js, mongoDB",
+  },
+  {
     id: 11,
     title: "poker legends malta",
     live: "https://poker-legends-malta.netlify.app/",
     github: "https://github.com/gengashvili/poker-legends-malta",
+    cover: "/images/poker-legends-malta.png",
     createdBy: "React, React Router, styled-components",
   },
   {
@@ -11,6 +20,7 @@ const projectsData = [
     title: "Crypto prices app",
     live: "https://gengashvili-crypto-prices-app.netlify.app/",
     github: "https://github.com/gengashvili/crypto-prices-app",
+    cover: "/images/crypto-prices.png",
     createdBy: "React, TypeScript, styled-components",
   },
   {
@@ -18,6 +28,7 @@ const projectsData = [
     title: "Entertainment app",
     live: "https://gengashvili-entertainment-web-app.netlify.app/",
     github: "https://github.com/gengashvili/entertainment-web-app",
+    cover: "/images/entertainment-web-app.png",
     createdBy: "React, React Router, styled-components",
   },
   {
@@ -25,6 +36,7 @@ const projectsData = [
     title: "Planets fact site",
     live: "https://gengashvili.github.io/Planets-Fact-Site/",
     github: "https://github.com/gengashvili/Planets-Fact-Site",
+    cover: "/images/planets-facts.png",
     createdBy: "React, React Router, styled-components",
   },
   {
@@ -32,6 +44,7 @@ const projectsData = [
     title: "Github user search app",
     live: "https://gengashvili.github.io/github-user-search-app/",
     github: "https://github.com/gengashvili/github-user-search-app",
+    cover: "/images/github-user-search.png",
     createdBy: "React, styled-components",
   },
   {
@@ -39,6 +52,7 @@ const projectsData = [
     title: "Todo app",
     live: "https://gengashvili.github.io/Todo-App/",
     github: "https://github.com/gengashvili/Todo-App",
+    cover: "/images/todo-app.png",
     createdBy: "React, styled-components",
   },
   {
@@ -46,6 +60,7 @@ const projectsData = [
     title: "Tip Calculator",
     live: "https://gengashvili.github.io/Tip-Calculator-App/",
     github: "https://github.com/gengashvili/Tip-Calculator-App",
+    cover: "/images/github-user-search.png",
     createdBy: "React, styled-components",
   },
   {
@@ -53,6 +68,7 @@ const projectsData = [
     title: "Interactive rating component",
     live: "https://gengashvili.github.io/interactive-rating-component/",
     github: "https://github.com/gengashvili/interactive-rating-component",
+    cover: "/images/interactive-rating.png",
     createdBy: "React, CSS",
   },
   {
@@ -60,6 +76,7 @@ const projectsData = [
     title: "Travel web site",
     live: "https://gengashvili.github.io/Travel-Web-Site/",
     github: "https://github.com/gengashvili/Travel-Web-Site",
+    cover: "/images/travel-web-site.png",
     createdBy: "HTML, SCSS/SASS",
   },
   {
@@ -67,6 +84,7 @@ const projectsData = [
     title: "Virtual reality web site",
     live: "https://gengashvili.github.io/virtual-reality-web-site/",
     github: "https://github.com/gengashvili/virtual-reality-web-site",
+    cover: "/images/house-repair.png",
     createdBy: "HTML, CSS",
   },
   {
@@ -74,6 +92,7 @@ const projectsData = [
     title: "House repair services",
     live: "https://gengashvili.github.io/house-repair-services/",
     github: "https://github.com/gengashvili/house-repair-services",
+    cover: "/images/virtual-reality.png",
     createdBy: "HTML, CSS",
   },
   {
@@ -81,6 +100,7 @@ const projectsData = [
     title: "IT-company",
     live: "https://gengashvili.github.io/IT-company/",
     github: "https://github.com/gengashvili/IT-company",
+    cover: "/images/it-company.png",
     createdBy: "HTML, CSS",
   },
 ];

@@ -17,8 +17,8 @@ function App() {
       <MainWrapper>
         <ThemeSwitcher setDarkMode={setDarkMode} darkMode={darkMode} />
         <Profile darkMode={darkMode} />
-        <SkillsContainer darkMode={darkMode} />
         <ProjectsContainer darkMode={darkMode} />
+        <SkillsContainer darkMode={darkMode} />
         <ContactMe darkMode={darkMode} />
         <Footer/>
       </MainWrapper>
